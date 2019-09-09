@@ -1,0 +1,79 @@
+body {
+  text-align: center;
+}
+
+#BlueOval {
+  opacity: 0 !important;
+}
+
+#Morse {
+  animation: rotation-full-acw 20s linear infinite;
+  transform-origin: center;
+}
+#Morse:hover {
+  animation-play-state: paused;
+  cursor: pointer;
+  fill: #ffffff !important;
+  stroke: #ffffff !important;
+}
+
+#YellowOval {
+  animation: rotation-full-cw 30s linear infinite;
+  transform-origin: center;
+}
+
+#YellowOval:hover {
+  animation-play-state: paused;
+  cursor: pointer;
+  fill: #ec4d37 !important;
+  stroke: #ec4d37 !important;
+}
+
+#GreenOval {
+  animation: rotation-full-acw 45s linear infinite;
+  transform-origin: center;
+  transform: scale(0.7) !important;
+}
+
+#GreenOval:hover {
+  animation-play-state: paused;
+  cursor: pointer;
+  fill: #ec4d37 !important;
+  stroke: #ec4d37 !important;
+}
+
+@keyframes rotation-full-acw {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes rotation-full-cw {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#Nigma {
+  opacity: 1;
+  animation: flickerAnimation 120s infinite;
+}
+
+@keyframes flickerAnimation {
+  /* flame pulses */
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
