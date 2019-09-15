@@ -16,8 +16,8 @@ body {
 #Morse:hover {
   animation-play-state: paused;
   cursor: pointer;
-  fill: #ffffff !important;
-  stroke: #ffffff !important;
+  fill: #1f2430 !important;
+  stroke: #1f2430 !important;
 }
 
 #YellowOval {
@@ -28,8 +28,8 @@ body {
 #YellowOval:hover {
   animation-play-state: paused;
   cursor: pointer;
-  fill: white !important;
-  stroke: white !important;
+  fill: #1f2430 !important;
+  stroke: #1f2430 !important;
 }
 
 #GreenOval {
@@ -41,8 +41,8 @@ body {
 #GreenOval:hover {
   animation-play-state: paused;
   cursor: pointer;
-  fill: white !important;
-  stroke: white !important;
+  fill: #1f2430 !important;
+  stroke: #1f2430 !important;
 }
 
 @keyframes rotation-full-acw {
