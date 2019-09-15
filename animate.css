@@ -1,3 +1,6 @@
+html {
+  background: #1f2430;
+}
 body {
   text-align: center;
 }
@@ -25,8 +28,8 @@ body {
 #YellowOval:hover {
   animation-play-state: paused;
   cursor: pointer;
-  fill: #ec4d37 !important;
-  stroke: #ec4d37 !important;
+  fill: white !important;
+  stroke: white !important;
 }
 
 #GreenOval {
@@ -38,8 +41,8 @@ body {
 #GreenOval:hover {
   animation-play-state: paused;
   cursor: pointer;
-  fill: #ec4d37 !important;
-  stroke: #ec4d37 !important;
+  fill: white !important;
+  stroke: white !important;
 }
 
 @keyframes rotation-full-acw {
